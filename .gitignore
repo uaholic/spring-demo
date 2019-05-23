@@ -1,3 +1,22 @@
+# idea file
 .idea
+.idea/
 *.iml
-target
+*.ipr
+*.iws
+
+# mac os file
+.DS_Store
+
+# java file
+*.jar
+*.war
+*.class
+
+# tmp file
+*~
+.*~
+
+# mvn target file
+target/
+target/*
