@@ -11,7 +11,7 @@ public class MainController {
     @Autowired
     MainService service;
 
-    @RequestMapping("/login")
+    @RequestMapping("/main")
     public ModelAndView login() {
         return new ModelAndView(service.getView());
     }

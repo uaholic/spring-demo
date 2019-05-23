@@ -94,4 +94,8 @@ configuration 子节点为 appender、logger、root
     private static Logger logger = LoggerFactory.getLogger(Class1.class);
     -->
 
+    <logger name="org.hibernate.engine.QueryParameters" level="DEBUG"/>
+    <logger name="org.hibernate.engine.query.HQLQueryPlan" level="DEBUG"/>
+    <logger name="org.hibernate.type.descriptor.sql.BasicBinder" level="TRACE"/>
+    <!--<logger name="org.hibernate.SQL" level="DEBUG"/>-->
 </configuration>

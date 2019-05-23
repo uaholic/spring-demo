@@ -13,6 +13,11 @@
 
     <artifactId>demo-webapp</artifactId>
     <dependencies>
+        <dependency>
+            <groupId>com.gyq</groupId>
+            <artifactId>demo-trans</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!-- JavaConfig方式搭建SpringMvc环境，servlet最低版本3.0.1 -->
         <dependency>
             <groupId>javax.servlet</groupId>
