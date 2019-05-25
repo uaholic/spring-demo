@@ -16,6 +16,8 @@
 
     <properties>
         <spring.version>5.1.5.RELEASE</spring.version>
+        <mysql.version>8.0.15</mysql.version>
+        <!--<mysql.version>5.1.38</mysql.version>-->
     </properties>
     <dependencies>
         <!-- spring framework 建议4.0以上-->
@@ -74,7 +76,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.15</version>
+            <version>${mysql.version}</version>
         </dependency>
 
         <dependency>
