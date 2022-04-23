@@ -15,7 +15,7 @@
     </modules>
 
     <properties>
-        <spring.version>5.1.5.RELEASE</spring.version>
+        <spring.version>5.3.19</spring.version>
     </properties>
     <dependencies>
         <!-- spring framework 建议4.0以上-->
